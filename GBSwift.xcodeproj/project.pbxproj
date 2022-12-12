@@ -14,6 +14,13 @@
 		679145282947A0450097F5B4 /* GBSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679145272947A0450097F5B4 /* GBSwiftTests.swift */; };
 		679145322947A0450097F5B4 /* GBSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679145312947A0450097F5B4 /* GBSwiftUITests.swift */; };
 		679145342947A0450097F5B4 /* GBSwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679145332947A0450097F5B4 /* GBSwiftUITestsLaunchTests.swift */; };
+		679145412947A4B50097F5B4 /* Emulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679145402947A4B50097F5B4 /* Emulator.swift */; };
+		679145432947AC090097F5B4 /* RAM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679145422947AC090097F5B4 /* RAM.swift */; };
+		679145452947AC2E0097F5B4 /* CPU.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679145442947AC2E0097F5B4 /* CPU.swift */; };
+		679145472947AFAE0097F5B4 /* PPU.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679145462947AFAE0097F5B4 /* PPU.swift */; };
+		679145492947AFE70097F5B4 /* Bus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679145482947AFE70097F5B4 /* Bus.swift */; };
+		6791454B2947B00D0097F5B4 /* Cartridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6791454A2947B00D0097F5B4 /* Cartridge.swift */; };
+		6791454D2947B02C0097F5B4 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6791454C2947B02C0097F5B4 /* Timer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +52,13 @@
 		6791452D2947A0450097F5B4 /* GBSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GBSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		679145312947A0450097F5B4 /* GBSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GBSwiftUITests.swift; sourceTree = "<group>"; };
 		679145332947A0450097F5B4 /* GBSwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GBSwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		679145402947A4B50097F5B4 /* Emulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emulator.swift; sourceTree = "<group>"; };
+		679145422947AC090097F5B4 /* RAM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAM.swift; sourceTree = "<group>"; };
+		679145442947AC2E0097F5B4 /* CPU.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPU.swift; sourceTree = "<group>"; };
+		679145462947AFAE0097F5B4 /* PPU.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPU.swift; sourceTree = "<group>"; };
+		679145482947AFE70097F5B4 /* Bus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bus.swift; sourceTree = "<group>"; };
+		6791454A2947B00D0097F5B4 /* Cartridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cartridge.swift; sourceTree = "<group>"; };
+		6791454C2947B02C0097F5B4 /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +114,13 @@
 				679145192947A0450097F5B4 /* Assets.xcassets */,
 				6791451E2947A0450097F5B4 /* GBSwift.entitlements */,
 				6791451B2947A0450097F5B4 /* Preview Content */,
+				679145402947A4B50097F5B4 /* Emulator.swift */,
+				679145422947AC090097F5B4 /* RAM.swift */,
+				679145442947AC2E0097F5B4 /* CPU.swift */,
+				679145462947AFAE0097F5B4 /* PPU.swift */,
+				679145482947AFE70097F5B4 /* Bus.swift */,
+				6791454A2947B00D0097F5B4 /* Cartridge.swift */,
+				6791454C2947B02C0097F5B4 /* Timer.swift */,
 			);
 			path = GBSwift;
 			sourceTree = "<group>";
@@ -259,8 +280,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				679145492947AFE70097F5B4 /* Bus.swift in Sources */,
+				679145432947AC090097F5B4 /* RAM.swift in Sources */,
+				679145472947AFAE0097F5B4 /* PPU.swift in Sources */,
+				679145412947A4B50097F5B4 /* Emulator.swift in Sources */,
+				679145452947AC2E0097F5B4 /* CPU.swift in Sources */,
 				679145182947A0440097F5B4 /* RomSelectionView.swift in Sources */,
+				6791454D2947B02C0097F5B4 /* Timer.swift in Sources */,
 				679145162947A0440097F5B4 /* GBSwiftApp.swift in Sources */,
+				6791454B2947B00D0097F5B4 /* Cartridge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

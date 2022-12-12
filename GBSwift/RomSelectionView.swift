@@ -11,6 +11,7 @@ import UniformTypeIdentifiers
 struct RomSelectionView: View {
     
     @State private var fileImporter: Bool = false
+    @State private var emulator: Emulator?
     
     var body: some View {
         VStack {
@@ -33,6 +34,10 @@ struct RomSelectionView: View {
                 print(error.localizedDescription)
             }
         }
+    }
+    
+    init() {
+        emulator = Emulator()
     }
 }
 
