@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		679145162947A0440097F5B4 /* GBSwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679145152947A0440097F5B4 /* GBSwiftApp.swift */; };
-		679145182947A0440097F5B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679145172947A0440097F5B4 /* ContentView.swift */; };
+		679145182947A0440097F5B4 /* RomSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679145172947A0440097F5B4 /* RomSelectionView.swift */; };
 		6791451A2947A0450097F5B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 679145192947A0450097F5B4 /* Assets.xcassets */; };
 		6791451D2947A0450097F5B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6791451C2947A0450097F5B4 /* Preview Assets.xcassets */; };
 		679145282947A0450097F5B4 /* GBSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679145272947A0450097F5B4 /* GBSwiftTests.swift */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		679145122947A0440097F5B4 /* GBSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GBSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		679145152947A0440097F5B4 /* GBSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GBSwiftApp.swift; sourceTree = "<group>"; };
-		679145172947A0440097F5B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		679145172947A0440097F5B4 /* RomSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomSelectionView.swift; sourceTree = "<group>"; };
 		679145192947A0450097F5B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6791451C2947A0450097F5B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6791451E2947A0450097F5B4 /* GBSwift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GBSwift.entitlements; sourceTree = "<group>"; };
@@ -96,7 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				679145152947A0440097F5B4 /* GBSwiftApp.swift */,
-				679145172947A0440097F5B4 /* ContentView.swift */,
+				679145172947A0440097F5B4 /* RomSelectionView.swift */,
 				679145192947A0450097F5B4 /* Assets.xcassets */,
 				6791451E2947A0450097F5B4 /* GBSwift.entitlements */,
 				6791451B2947A0450097F5B4 /* Preview Content */,
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				679145182947A0440097F5B4 /* ContentView.swift in Sources */,
+				679145182947A0440097F5B4 /* RomSelectionView.swift in Sources */,
 				679145162947A0440097F5B4 /* GBSwiftApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
